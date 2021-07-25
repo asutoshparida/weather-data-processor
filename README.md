@@ -5,19 +5,16 @@ This repository will be used for data ingestion & processing of National Centers
 
 # Synopsis
 
-    What you will need:
-
-    PostgreSQL 10 or later
-
-    JVM
-
-    Development Environment
-
+    
     The Exercise may require a few tens of GB of space. The exercises can be submitted as a zip archive of the source directory. 
 
-    Part 1:
+    ** Part 1:**
 
-    Take the following files, create a database structure for them and load them into PostgreSQL. Whether you normalize the data is up to you, but both header and record data must be stored. You can use any language on the JVM, but without using Spark or ORM-like libraries.  
+    Take the following files, create a database structure for them and load them into PostgreSQL. 
+    
+    Whether you normalize the data is up to you, but both header and record data must be stored. You can use any language on the JVM, 
+    
+    but without using Spark or ORM-like libraries.  
 
      
 
@@ -37,9 +34,16 @@ This repository will be used for data ingestion & processing of National Centers
 
      
 
-    Part 2: 
+    **Part 2: **
+    
 
-    In Spark, connect to Postgres, digest the data, and write Apache Parquet files. The parquet files should include all data for the weather balloons, and be partitioned by thousands of meters altitude (i.e. partitioning to 0-1000, 1001-2000, 2001-3000, etc). You may create multiple files per partition but each file should only contain data for one partition.
+    In Spark, connect to Postgres, digest the data, and write Apache Parquet files.
+    
+    The parquet files should include all data for the weather balloons, 
+    
+    and be partitioned by thousands of meters altitude (i.e. partitioning to 0-1000, 1001-2000, 2001-3000, etc).
+    
+    You may create multiple files per partition but each file should only contain data for one partition.
 
 -----
 
