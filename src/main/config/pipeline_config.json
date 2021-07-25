@@ -2,7 +2,7 @@
   "readDBURL": "jdbc:postgresql://localhost:5432/",
   "masterDBURL": "jdbc:postgresql://localhost:5432/",
   "dbUser": "postgres",
-  "dbPass": "1@situnani",
+  "dbPass": "1@*****",
   "database": "adjust",
   "dataSourceLocation": "/data/in",
   "processedSourceLocation": "/data/in/processed/",
