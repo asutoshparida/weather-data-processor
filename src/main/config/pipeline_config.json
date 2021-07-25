@@ -1,0 +1,15 @@
+{
+  "readDBURL": "jdbc:postgresql://localhost:5432/",
+  "masterDBURL": "jdbc:postgresql://localhost:5432/",
+  "dbUser": "postgres",
+  "dbPass": "1@situnani",
+  "database": "adjust",
+  "dataSourceLocation": "/data/in",
+  "processedSourceLocation": "/data/in/processed/",
+  "dataDestLocation": "/data/out",
+  "processedDestLocation": "/data/out/processed/",
+  "dataFlushLimit" : 100,
+  "parquetFileLocation" : "weather-data/",
+  "isMultiProcessing": "No",
+  "threadPoolSize" : 2
+}

@@ -1,0 +1,95 @@
+{
+  "record_format": [
+    {
+      "column_name": "LVLTYP1",
+      "start_index": 1,
+      "end_index": 1,
+      "column_type": "Integer",
+      "column_order": 1
+    },
+    {
+      "column_name": "LVLTYP2",
+      "start_index": 2,
+      "end_index": 2,
+      "column_type": "Integer",
+      "column_order": 2
+    },
+    {
+      "column_name": "ETIME",
+      "start_index": 4,
+      "end_index": 8,
+      "column_type": "Integer",
+      "column_order": 3
+    },
+    {
+      "column_name": "PRESS",
+      "start_index": 10,
+      "end_index": 15,
+      "column_type": "Integer",
+      "column_order": 4
+    },
+    {
+      "column_name": "PFLAG",
+      "start_index": 16,
+      "end_index": 16,
+      "column_type": "Character",
+      "column_order": 5
+    },
+    {
+      "column_name": "GPH",
+      "start_index": 17,
+      "end_index": 21,
+      "column_type": "Integer",
+      "column_order": 6
+    },
+    {
+      "column_name": "ZFLAG",
+      "start_index": 22,
+      "end_index": 22,
+      "column_type": "Character",
+      "column_order": 7
+    },
+    {
+      "column_name": "TEMP",
+      "start_index": 23,
+      "end_index": 27,
+      "column_type": "Int eger",
+      "column_order": 8
+    },
+    {
+      "column_name": "TFLAG",
+      "start_index": 28,
+      "end_index": 28,
+      "column_type": "Character",
+      "column_order": 9
+    },
+    {
+      "column_name": "RH",
+      "start_index": 29,
+      "end_index": 33,
+      "column_type": "Integer",
+      "column_order": 10
+    },
+    {
+      "column_name": "DPDP",
+      "start_index": 35,
+      "end_index": 39,
+      "column_type": "Integer",
+      "column_order": 11
+    },
+    {
+      "column_name": "WDIR",
+      "start_index": 41,
+      "end_index": 45,
+      "column_type": "Integer",
+      "column_order": 12
+    },
+    {
+      "column_name": "WSPD",
+      "start_index": 47,
+      "end_index": 51,
+      "column_type": "Integer",
+      "column_order": 13
+    }
+  ]
+}

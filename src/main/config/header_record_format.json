@@ -1,0 +1,81 @@
+{
+  "record_format": [
+    {
+      "column_name": "ID",
+      "start_index": 2,
+      "end_index": 12,
+      "column_type": "Character",
+      "column_order": 1
+    },
+    {
+      "column_name": "YEAR",
+      "start_index": 14,
+      "end_index": 17,
+      "column_type": "Integer",
+      "column_order": 2
+    },
+    {
+      "column_name": "MONTH",
+      "start_index": 19,
+      "end_index": 20,
+      "column_type": "Integer",
+      "column_order": 3
+    },
+    {
+      "column_name": "DAY",
+      "start_index": 22,
+      "end_index": 23,
+      "column_type": "Integer",
+      "column_order": 4
+    },
+    {
+      "column_name": "HOUR",
+      "start_index": 25,
+      "end_index": 26,
+      "column_type": "Integer",
+      "column_order": 5
+    },
+    {
+      "column_name": "RELTIME",
+      "start_index": 28,
+      "end_index": 31,
+      "column_type": "Integer",
+      "column_order": 6
+    },
+    {
+      "column_name": "NUMLEV",
+      "start_index": 33,
+      "end_index": 36,
+      "column_type": "Integer",
+      "column_order": 7
+    },
+    {
+      "column_name": "P_SRC",
+      "start_index": 38,
+      "end_index": 45,
+      "column_type": "Character",
+      "column_order": 8
+    },
+    {
+      "column_name": "NP_SRC",
+      "start_index": 47,
+      "end_index": 54,
+      "column_type": "Character",
+      "column_order": 9
+    },
+    {
+      "column_name": "LAT",
+      "start_index": 56,
+      "end_index": 62,
+      "column_type": "Integer",
+      "column_order": 10
+    },
+    {
+      "column_name": "LON",
+      "start_index": 64,
+      "end_index": 71,
+      "column_type": "Integer",
+      "column_order": 11
+    }
+  ]
+}
